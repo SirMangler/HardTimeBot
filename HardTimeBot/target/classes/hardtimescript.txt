@@ -1,0 +1,474 @@
+//#&pscript;version;probability of firing
+
+//&p = police
+//&i = inmate
+
+//only triggers based on messages, but never twice in an hour (per HT character)
+@weapon
+Thing
+Rock
+Wooden Plank
+Steel Pipe
+Baseball Bat
+Pool Cue
+Knife
+Pistol
+Machine Gun
+Explosive
+Brick
+Dumbbell
+Nightstick
+Hammer
+Ball
+Broom
+Cigarette
+Syringe
+Bottle
+Extinguisher
+Screwdriver
+Scissor
+Meat Cleaver
+Sword
+Comb
+Mirror
+
+@reasons
+None
+Dissent
+Gang Membership
+Trying To Escape
+Carrying An Illegal Item
+Drug Abuse
+Dealing
+Stealing
+Assault
+Assaulting A Warden
+Assault With A Weapon
+Grievous Bodily Harm
+Attempted Murder
+Murder
+Serial Murder
+
+@crimes
+Fraud
+Prostitution
+Drug Abuse
+Drug Dealing
+Theft
+Armed Robbery
+Vandalism
+Assault
+Child Abuse
+Rape
+Grievous Bodily Harm
+Attempted Murder
+Manslaughter
+Murder
+Terrorism
+
+@firstname
+Vic
+Eddie
+Matt
+Liam
+Stuart
+Scott
+Mike
+Gez
+Adam
+Joe
+Lee
+Alan
+Dennis
+Peter
+Leon
+Andy
+Theo
+Dan
+Henry
+Grant
+Anton
+Des
+Arnie
+Tom
+Paul
+Tony
+Nick
+Steve
+Vince
+John
+Gordon
+Chris
+Rob
+Ray
+Mick
+Rick
+Abe
+Nate
+Dave
+David
+Ian
+Trent
+Fred
+Kanye
+Sean
+Shawn
+Nasir
+George
+Obie
+Robin
+Keith
+Sgt
+Dr
+Mr
+Tim
+Jerry
+Larry
+Ted
+Lance
+Gaz
+Kevin
+Frank
+Bruce
+Gavin
+Cody
+Noel
+
+@surname
+Aceveda
+Sanders
+Grimm
+Clark
+Evans
+Bryant
+Madison
+Jackson
+Mackey
+Rooney
+Gaunt
+Collins
+Dickin
+Loveday
+Atkins
+Luther
+Walsch
+Vessey
+Osborne
+Diaz
+Sipowicz
+Taylor
+Jones
+Smith
+McCall
+Neeson
+Samson
+Simpson
+McMahon
+Hardass
+Compton
+Clapson
+Walker
+Kiljoy
+Cameron
+Blair
+Hawksbee
+Galloway
+Madden
+Austin
+Simmons
+Medavoy
+Lister
+Rimmer
+Bishop
+Hogan
+Duggan
+Lawler
+Brown
+Keaton
+Steiner
+Combs
+Carter
+Bush
+Nixon
+Mathers
+Schwarz
+Rajah
+Foster
+Robson
+Manson
+Pearce
+Epton
+Dearden
+Mitchell
+Mendoza
+
+
+@nickname
+Lemonhead
+Machoman
+Heavyweight
+Escobar
+Handyman
+Lyracist
+Maitreya
+Toadfish
+Octogon
+Riverside
+Scotbird
+Downtown
+Boomtown
+Maverick
+Needles
+Iceman
+Scally
+Sunshine
+Terminator
+Fairytale
+Spacker
+Menace
+Messiah
+Farrenheit
+Roughcock
+Muhammad
+Zansibar
+Apocolypto
+Warrior
+Bulletproof
+Assassin
+Nightmare
+
+#insulted;5;15
+You're a pathetic specimen, {user}!
+I could crush a weakling like you with one hand...
+Hey, {user}, you're a lazy asshole!
+I can probably walk faster than you run...
+Hey, {user}, i'm not scared of you! Your status makes you a target to me...
+I'll make sure you never leave this place...
+
+#&pinsulted;9;20
+Hey, {user}, you've got no business putting your hands on a police officer!
+
+#&pweapon;30
+Hey, {user}, i saw what you did to {inmate} with that {weapon}!\nYou shouldn't be fighting at all - let alone with weapons! Put that down or there'll be trouble...
+&nYou think i'm scared of a {weapon}? I'll take it and shove it up your ass!
+Hey, {user}, stop where you are! What are you doing with that {weapon}?
+You know you're not allowed to carry weapons! Put that {weapon} down immediately or there'll be trouble...
+&yThat's right. Step away from the weapon and perhaps we won't have to take this any further...
+&nWell, you better know how to use it because i'm gonna kick your ass until you give it up!
+&nWell, that just makes me all the more suspicious!\nAnything valuable to you is worth confiscating...
+
+#&iweapon;1;30
+Hey, {user}, i need that {weapon}!\nGive it to me or i'll take it by force...
+&yThanks, this should come in handy!\Maybe i'll return the favour some time...
+&nWell, it better be worth it because i'm gonna kick your ass until you give it up!
+Hey, {user}, that's my {weapon}!\nGive it back or i'll show you what it's for...
+&yI should think so too! If you ever touch my stuff again, i won't give you a choice in the matter...
+
+#&iweapon;2;30
+Hey, {user}, i need that {weapon}!\nWould you be willing to sell it for {cash}
+&yGreat! This should come in handy.\nMaybe we'll do business again some time...
+&nFine! If you won't sell it, i'll have to take it!\nAssholes like you deserve to be robbed...
+
+#problem;45
+Hey, {user}, what's the problem here?
+If there's any fighting to do, i'll do it!
+All you animals have to worry about is the rules, so stop bickering before i really lose my temper!
+That's right - take your lazy ass somewhere else!
+
+#insulted;1;20
+straighten up and fly right before i show you how hard a REAL man can hit!
+Hey, {user}, you've got no business putting your hands on a police officer!
+If you want to pick a fight with us, we'll make your life even more unbearable inside these walls!
+Fine! If you won't abdicate the throne, i'll just have to drag your sorry ass from it!
+Since i'm on my feet, i should kick your ass!
+Hey, what's your problem?! Touch me again and it'll be the last thing you ever do...
+You're a pathetic specimen, {user}!
+I could crush a weakling like you with one hand...
+I wish i was as strong as you, {user}!
+I'm sure it gets you through some tough times...
+Hey, {user}, you're a lazy asshole!
+I can probably walk faster than you run...
+You better watch your back, {user}!
+We don't like {race} people around here...
+I'll make sure you never leave this place...
+
+#modacttion
+Don't listen to that judge, {user}! His 'guilty' verdict makes you innocent to us... It's the ones that come back from court without doing their time that you have to be suspicious of...
+//You're a snitch, {user}! Who did you give up to get that judge off your back?!
+//When a man comes back from court without getting time, there can only be one explanation for it...
+
+#boast;5
+I'm the king of this place and i deserve a throne..
+Hey, there's a new king in town and his name is {me}! Watch your step around me....
+
+#&idamn;5
+Damn, i wish i was intelligent enough to use this computer! It could come in handy...
+Damn, i wish i was intelligent enough to prepare food! It's not as tiring as sweeping...
+Damn, i wish i was intelligent enough to arrange these files! It pays better than preparing food...
+Damn, i wish i was intelligent enough to mix these chemicals! It pays better than filing...
+Damn, i wish i was strong enough to make things! This could come in handy...
+Oooh, i feel terrible all of a sudden!
+I must be coming down with something...
+
+#pinged;30
+You don't wake me up unless you want a fight!
+
+#channel;40
+Hey, {user}, get out of that channel!\nYou've got no business being in there...
+Hey, what are you doing in MY channel?!\nGet out of there before i kick you out!
+Hey, {user}, what are you doing in there?! That's {friend}'s channel... He happens to be a friend of mine, so get out before i kick you out on his behalf!
+Hey, what are you doing in the {currentchannel}? This is where REAL criminals do their time! You better scurry back to the safety of the {channel} before you get in above your head!
+Hey, you're from the {currentchannel} too? Guys like us should stick together!
+
+#friendinsulted;1;50
+Hey, {user}, watch who you mess with!\n{friend} is a personal friend of mine...\nAn attack on MY friends is an attack on ME
+Hey, {user}, watch who you mess with! {friend} is a member of {role}...\nAn attack on one of us is an attack on the whole crew, so pick your battles carefully!
+
+#insulted;2;25
+Hey, do you know who you're messing with?! I'm a member of {role}...\nThis ink means something! One word from me and the whole crew will be on your back...
+//&gHey, {user}, why are you attacking a fellow member of {role}?!\nThe last thing a crew needs is civil war!
+Don't you know the only way out is DEATH?\nYou soon will when the others hear about this!
+
+#insulted;3;25
+Hey, {friend}, did you see what {user} just did? Help me get that son of a bitch!
+&yThank God! Now let's teach him a lesson! He's got no chance against both of us...
+&nYou're leaving me to face him on my own?! If that's your idea of friendship then forget it!
+
+#insulted;4;5
+Hey, {user}, look what you've done!\nI'll be scarred for life because of you!\nI'm never gonna forgive your for this!\nI won't stop until you feel the same pain...
+
+#insulted;5;5
+Will you leave me alone if i give you {cash}
+&yThank God! Here's your money. Now please leave me in peace...
+&nFine! If you want to fight to the death, i'll have to give you everything i've got!
+
+#friendinsulted;2;50
+Hey, {friend}, i hear you've been having trouble with {user}? I can take care of him if you want? Just give me {cash} and he'll never bother you again!
+Don't worry, {friend}! I'm gonna get {user} for what he did to you...
+&yConsider it done! As soon as i see that asshole, he'll wish he'd never been born...
+&nMaybe it's YOU that deserves a beating!\n{user} would pay to see that...
+
+#&irandom;1;10
+Hey, {user}, we both know that you deserved to be crucified by that judge!\nThere may not be any justice in HIS court room, but there is justice in MY prison!\nFor every day you should have been sentenced to, i'm gonna make your life a living hell!
+Hey, {user}, we both know that justice was done in that courtroom!\nThere's no reason for either of us to hold a grudge, so just toe the line and we won't have a problem...
+Hey, {user}, aren't you tired of being judged by the colour of your skin?
+Hey, {user}, your skin is white but you're not letting it shine bright!
+Hey, {user}, you've been sent to this prison to serve a greater cause...\nJoin The Avatars Of Allah and help us wage war on the infidels! We could use a guy like you...
+Hey, {user}, haven't you ever heard that the pen is mightier than the sword?
+Hey, {user}, i'm sure you know that only the strong survive in here? We could use a guy like you...
+Hey, {user}, don't forget that the point of prison is to better yourself...
+Hey, {user}, how could you turn your back on {role}?!
+Hey, {user}, how could you turn your back on us to join {role}?!
+
+#random;2;5
+Hey, {user}, would you be interested in buying this {weapon} for {cash}
+&yGood for you! I hope you enjoy it.\nMaybe we'll do business again some time...
+&nHey, it's your choice! But don't come crying to me the next time you need something...
+Hey, {user}, do you want this {weapon}?\nI don't need it anymore, so it's up for grabs...
+&yConsider it yours, my friend! I hope you get as much use out of it as i did...
+&nHey, i was just trying to make your life easier!\nMaybe somebody else in here will appreciate it...
+
+#&prandom;3;5
+{user}, are you a member of {role}?
+&yWe're cracking down on that gang, so give them up or we'll make an example out of you!
+&nGood for you! Those guys never cared about you.\nThey just wanted someone to do their dirty work...
+&nYou're willing to take the heat for those assholes?!\nPerhaps you need reminding who runs this place...
+
+#&prandom;4;5
+Hey, {user}, i'm supposed to take you in for {reasons}... Fortunately for you, i'm feeling generous!\nSlip me {cash} and i'll drop the charges?
+&yIt seems you're not the man we're looking for! I can't even remember what the crime was now...
+&nFine! If you won't accept my help, all that remains is to drag you before the judge...
+
+#&irandom;5;5
+Hey, {user}, i saw what you did!\nI could send you down for a long time... Fortunately for you, i'm a compassionate man and may be willing to forget what i saw for {cash}
+&yTurns out i didn't see anything after all!
+&yI guess the wardens just lost their case...
+&nFine, have it your way! When the wardens hear my version of the story they'll throw away the key...
+
+#&irandom;6;5
+Hey, {user}, what have you been up to? Word is you're wanted for {reasons}! Fortunately for you, i need money - and may be willing to take the blame if you pay me {cash}
+&yThis should ease the pain when i take the heat!
+&yI'm never getting out, so i might as well profit...
+&nFine, have it your way! I'll take the side of the wardens and make sure you go down...
+
+#&irandom;7;5
+Hey, {user}, you've got to help me! The wardens want me for {reasons}! Take the heat for me and i won't forget it! I'll even pay you {cash} for your trouble?
+&yThanks, you just saved my life! Here's your money. Having a friend like you will be worth every penny...
+&nYou're turning down {cash} to tell a few lies?! Don't come to me the next time you need a favour...
+
+#&prandom;8;5
+You know, {user}, being a warden is a very respectable job. People believe whatever you say! For instance, i don't have to SEE you morons committing a crime - all i have to do is SAY it!\nGive me {cash} or i'll give you an example! I could have you before a judge right now...
+&yA wise choice! It would have been a shame if you ruined your life for no reason...
+&nWrong move! It turns out you're wanted for {reasons}! I'll have to take you in...
+
+#random;9;5
+Listen, {user}, i understand that a prisoner needs to do his dirt to survive in here... That's why i'd like to help! Give me {cash} and i'll cut you some slack for an hour or so?
+&yThanks! This should buy you a little breathing space. Just stay away from the other wardens...
+&nIn that case, i'll ride you harder than ever! It's better to be with me than against me...
+
+#random;10;5
+Prison can be a cold place, {user}! You need somebody to look out for you... I can offer that protection!\nGive me {cash} and i'll watch your back for an hour or so?
+&yThanks! This should buy you some peace of mind. Do your thing and leave the worrying to me...
+&nFine, then add me to your list of enemies!
+&nI guess you just can't help some people...
+
+#random;11;5
+Hey, {user}, i hear you've got a problem with {friend}? Well, he's a friend of mine!\nIf he doesn't like you, i don't like you either - so you better watch your back!
+
+#random;12;5
+Hey, {user}, why do you hang out with an asshole like {friend}?!\nCut that loser out of your life, or we'll have to assume that you're just as bad!
+&yA wise choice! It would have been a shame if you ruined your life because of that guy...
+&nThat tells me everything i need to know about you!
+&nIf you share his company, you'll share his fate...
+
+#&irandom;13;2
+Are you a member of {role}? I've always wanted to join that gang! Do you think you could find a place for me?
+&yI'm sure i'd be a great asset to the cause...
+&yGreat! You won't regret this, i promise! I'll do anything for {role}...
+&nWho wants to join your pathetic club anyway?! Everybody knows you're a laughing stock here...
+
+#&irandom;14;2
+Hey, {user}, i'm sure you'd like to be a member of {role} like me? Trouble is there's a strict selection process, but {cash} might tempt me to overlook it?
+&yThanks for your generous contribution! I'm sure you'll be a great asset to the gang...
+&nYou'll never make any progress in here with that attitude! You need to learn to grease the wheels...
+
+#&irandom;15;2
+Listen, {user}, i know we haven't been seeing eye-to-eye in recent weeks... Well, i for one am tired of the bickering so what d'you say we put it all behind us?
+&yGreat! That's one less thing to worry about! You need all the friends you can get in here...
+&nFine! We'll wage war until you stop breathing! You'll learn that pride comes before a fall...
+
+#&irandom;16;1
+Hey, {user}, the prison system has been shaken up to stop you getting too comfortable! You're now in {currentchannel}. \nHead over there and make yourself at home...
+
+#&irandom;17;10
+Hey, {user}, you think you're a big man because you're doing time for {reasons}?! Well, screw that because i'm in here for {reasons} - and that's even worse!
+Hey, {user}, i hear you're in here for {reasons}? Animals like you should be in another prison!\nI'm only in here for {reasons}...
+Hey, {user}, i hear you're in here for {reasons}? Don't worry, i'm sure you didn't do it! I've been accused of {reasons}...
+
+#random;18;10
+Hey, {user}, don't waste your time studying if you want to get a job! Just give me {cash} and i can forge the qualifications for you if you want?
+&yNo problem! Once i edit your test scores, people will think you have an intelligence of 5%...
+&nYou'll never get anywhere with that attitude!
+&nYou're not in high school anymore, bookworm...
+
+#random;19;5
+Hey, {user}, get out of my way!
+You need to watch where you're going...
+Hey, {user}, are you following me?
+{user}, get away from me before i kick you away!
+What are you looking at, {user}?
+{user}, you don't eyeball me unless you want a fight!
+You screwed up, {user}! That's the last time i ask you to do something for me...
+
+#random;20;5
+Hey, {user}, {friend} asked me to deliver this {weapon} to you...
+Hey, {user}, i received a call asking me to deliver this {weapon} to you...
+
+#random;21;20
+You better watch your back, {user}! We don't like {race} people around here...
+
+#join;50
+I'm {me} from {channel}. Stay out of my way and we won't have a problem...
+I'm {me} - a member of {role}! Stay out of my way and we won't have a problem...
+Watch your back, new boy! I'm {me} from {channel} and i rule this place...
+Watch your back, new boy! I'm {me} of {role} and we rule this place...
